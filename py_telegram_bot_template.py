@@ -42,13 +42,5 @@ def main():
                 # Updates global offset to get the new updates
                 LAST_UPDATE_ID = update.update_id + 1
 
-
-def brain(bot):
-    """Defines the main behaviour of the bot."""
-    global LAST_UPDATE_ID
-
-    # Request updates after the last updated_id
-
-
 if __name__ == '__main__':
     main()
